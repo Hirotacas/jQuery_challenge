@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #555555;
+}
+
+body {
+  padding-top: 60px;
+  background-color: #cedd90;
+}
+
+.global_nav {
+  text-align: center;
+}
+
+.global_nav li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.global_nav ul li a {
+  text-decoration: none;
+}
+
+.menu {
+  width: 400px;
+  margin: 10px auto 50px;
+  text-align: center;
+}
+
+.more_menu {
+  display: none;
+}
+
+.main_menu h3 {
+  letter-spacing: -0.05em;
+}
+
+#main {
+  background-color: #dddddd;
+  margin: 0 auto 0;
+  width: 70%;
+  border-radius: 10px;
+}
+
+#main .title {
+  text-align: center;
+  background: none;
+}
+
+#main h3 {
+  color: #348a4d;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+
+#main h4 {
+  font-size: 20px;
+  color: #555555;
+  font-weight: lighter;
+  margin: 15px auto 15px;
+  border-left: solid #408c47 10px;
+  -webkit-border-top-left-radius: 10px;
+}
+
+#main h4:first-letter {
+  font-size: 30px;
+  color: #408c47;
+}
+
+#main p {
+  color: #666666;
+  font-size: 14px;
+}
+
+#main p:first-letter {
+  color: #408c47;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* wiki 引用文*/
+
+.quotation {
+  padding-top: 30px;
+  text-align: right;
+}
+
+.quotation a:hover {
+  opacity: .5;
+}
+
+.quotation a {
+  color: #435c98;
+  text-decoration: none;
+}
+
+/*フッター*/
+
+footer p {
+  margin-top: 70px;
+  text-align: center;
+  color: #777777;
+  font-size: 12px;
+}
+
+/* ボタン */
+
+.btn {
+  border: 1px solid #CCCCCC;
+  border-radius: 2px;
+  padding: 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .5;
+}
+
+.btn-primary {
+  border-color: #435c98;
+  color: #435c98;;
+}
+
+.btn-impact {
+  border-color: #d18d26;
+  background-color: #e9c645;
+  color: #ad7520;
+}
+
+
+
+
+
+
+
+
+
+

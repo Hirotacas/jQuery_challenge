@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Programming languages">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Goとは</title>
+</head>
+<body>
+
+<article>
+  <div id="main">
+    <h3>What is Go?</h3>
+    <section>
+      <h4>概説</h4>
+      <p>
+        Goはプログラミング言語のひとつ。Googleによって開発されており、設計にロブ・パイク、ケン・トンプソンらが関わっている。
+        主な特徴として、軽量スレッディングのための機能、Pythonのような動的型付け言語のようなプログラミングの容易性、などがある。Go処理系としてはコンパイラのみが開発されている。
+        発表当初はLinuxとMac OS
+        Xのみしかサポートしていなかったが、2012年3月にリリースされたバージョン1.0からはWindowsもサポートされている。2014年12月にリリースされたバージョン1.4からAndroidをサポートし、2015年8月19日にリリースされたバージョン1.5からiOSをサポートしている。また、2011年5月10日に公開された
+        Google App Engine 1.5.0 でも、Go言語がサポートされている。
+      </p>
+    </section>
+    <section>
+      <h4>概要</h4>
+      <p>
+        Goの構文は様々な言語に部分的に類似している。変数の定義における型の記法はLimboと同様の後置でALGOLやPascalに類似し、ブロックの区切りに波括弧を使う記法はC言語に類似している。for文やif文では条件式を丸括弧で括らず帰結部分には波括弧が必須である。メモリ管理はガベージコレクションに一任され、連想配列も備える。並列処理はOccamやLimboと同様、アントニー・ホーアによるCSPのプロセス代数をモデルとし、Limboと同様チャンネルによるスレッド間通信機能がある。
+        型の継承、ジェネリックプログラミング、アサーション、オーバーロードといった機能が存在しないことも特徴である。他の言語で使われているtry-catch方式の例外処理機能はないが代わりの機能としてpanicとrecoverを用いた例外処理機能を提供している。FAQにおいて、ジェネリックプログラミングは一部導入が表明されているが、オーバーロードは効率的見地から排除されたことが述べられている。関数は多値を返すことができるので、それによりエラーの報告は容易である、としている。
+        バージョン1.5から、コンパイラとランタイムのソースコードに含まれていたC言語のソースコードがなくなり、GoはGo自身とアセンブリで記述されるようになった。
+        バージョン1.6から、64ビットMIPS上で動作するLinux版および32ビットx86上で動作するAndroid版ポートが追加された。
+      </p>
+    </section>
+    <p class="quotation">
+      引用元 Wikipedia : <a
+            href="https://ja.wikipedia.org/wiki/Go_(%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E)"
+            target="_blank">Java</a>. 2016.
+    </p>
+  </div>
+</article>
+
+</body>
+</html>

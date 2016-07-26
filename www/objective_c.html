@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Programming languages">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>objective_Cとは</title>
+</head>
+<body>
+
+<article>
+  <div id="main">
+    <h3>What is Objective-C?</h3>
+    <section>
+      <h4>歴史</h4>
+      <p>
+        Objective-Cは、1983年にブラッド・コックス（英語版）によって開発され、そのコンパイラやライブラリを支援するためにStepstone社を創立した。Stepstone社は、Objective-Cに力を注いだが、それはマイナーな存在であった。Objective-Cが認知され始めるきっかけは、1985年、アップルコンピュータを去ったスティーブ・ジョブズが、m68k機であるNeXTコンピュータとNeXTSTEPオペレーティングシステムの開発を行うNeXT
+        Computer社を創立したことに始まる。
+        そのマシンのユーザインタフェースは、Display PostScriptとObjective-Cで書かれたApplication
+        Kitにより提供され、Objective-CはNeXTコンピュータの主力言語となった。その後の歴史は、主にNeXT社とともにあり、GCCをベースにしたObjective-Cサポートが行われ、プロトコルの導入など文法の拡張なども行われている。NeXT社による多くの成果は、GCCに還元されている。
+        1995年には、NeXT社がStepstone社からObjective-C言語と、その商標に関する全ての権利を買い取っている。1997年初頭、Apple社がNeXT社を買収し、2001年に登場したMac OS
+        XのCocoaフレームワークのコア言語として採用されている。Mac OS X v10.5からは一部言語仕様の変更が行われObjective-C 2.0と呼ばれる（詳細は#Objective-C 2.0を参照）。
+        コンパイラおよび言語仕様は完全に公開されているものの、長らくNeXTおよびその後継であるMac OS XとiOSの専用言語に近い状態にある。2008年にiPhone
+        OS（現iOS）のAPIが公開されて以降、習得者の人口が増える傾向にあるが、アップル社の開発環境は、徐々にLLVMベースにシフトしつつあり、GCC版は事実上のGNUstep専用と化しつつある。
+      </p>
+    </section>
+    <section>
+      <h4>概要</h4>
+      <p>
+        Objective-CはCを拡張してオブジェクト指向を可能にしたというよりは、Cで書かれたオブジェクト指向システムを制御しやすいようにマクロ的な拡張を施した言語である。したがって、「better
+        C」に進んだC++とは異なり、「C & Object System」という考え方であり、ある意味2つの言語が混在した状態にある。
+        関数（メソッド）の定義と呼び出し方が独特であるため、Objective-Cのコードは一見C++以上にCとはかけ離れた独特の記述となる。しかし、言語仕様はCの完全上位互換であり、if/for/whileなどの制御文や、intなどのスカラー型、関数記法、宣言・代入といった基本的な文法はCに準拠する。一方オブジェクトシステムはSmalltalkの概念をほぼそのまま借用したもので、動的型のクラス型オブジェクト指向ランタイムを持ち、メッセージパッシングにより動作する。このことからしばしば「インラインでCの書けるSmalltalk」または「インラインでSmalltalkの書けるC」などと呼ばれる。Cとは異なるObjective-Cに特有の部分は、@で始まるコンパイラディレクティブで明示され、オブジェクトのメソッド呼び出しは[]で囲まれたメッセージ式で行われる。
+        最大の特徴はオブジェクトシステムが完全に動的という点で、実行時のクラス拡張、オブジェクト汎用型idの導入により型によらない動的配列・辞書など、インタプリタに近い記述力をもつことである。実際にコードそのものはネイティブコンパイルされるものの、動作原理はほぼインタプリタに近く、コンパイラ型言語としてはまれな柔軟性を発揮する。
+        したがって、C側から見れば一種のスクリプトインタプリタが乗っているような状態であり、逆にオブジェクトシステムからはOS機能や膨大なC言語資源を直接利用可能なインターフェースが備わっているといえる。また仮想マシンを持たずに済むため、取り回しも良い。パフォーマンスはJavaのような中間コード型言語よりも良好で、CやC++のようなネイティブコンパイル言語には劣るとされる。Objective-C特有のこの形態は双方のメリット・デメリットが明確で、実際的な使い勝手が非常に優れている。この特性に着目したのがNEXTSTEPで、UNIXとの互換性と先進的なオブジェクト指向環境の両立に成功し、その後のOS設計に大きな影響を与えることとなった。
+        後続言語への影響としては、特にJavaの基礎設計にその姿を見ることができる（サン・マイクロシステムズがOPENSTEPに関わっていたことと関係がある）。
+      </p>
+    </section>
+    <p class="quotation">
+      引用元 Wikipedia : <a href="https://ja.wikipedia.org/wiki/Objective-C" target="_blank">Objective-C</a>. 2016.
+    </p>
+  </div>
+</article>
+
+</body>
+</html>

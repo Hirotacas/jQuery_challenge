@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <title>jQueryでメニュー切り替え</title>
+</head>
+<body>
+
+<script src="js/script.js"></script>
+
+<nav>
+  <div class="global_nav">
+    <ul>
+      <li><a href="ruby.html" class="btn btn-primary">Ruby</a></li>
+      <li><a href="java.html" class="btn btn-primary">Java</a></li>
+      <li><a href="javascript.html" class="btn btn-primary">Javascript</a></li>
+      <li><a href="objective_c.html" class="btn btn-primary">Objective-C</a></li>
+      <li>
+        <button id="more" class="btn btn-impact">もっと見る</button>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="menu">
+    <div class="main_menu">
+      <h3>About Programming Languages</h3>
+    </div>
+    <div class="more_menu global_nav">
+      <ul>
+        <li><a href="c_sharp.html" class="btn btn-primary">C#</a></li>
+        <li><a href="go.html" class="btn btn-primary">Go</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<article>
+  <div id="main">
+    <p class="title">あなたの好きなプログラミング言語はどれですか?</div>
+  </div>
+</article>
+<aside>
+  <footer>
+    <p>Hirotacas:2016 課題 version 1.0</p>
+  </footer>
+</aside>
+</body>
+</html>
