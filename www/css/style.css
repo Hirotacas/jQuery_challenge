@@ -106,6 +106,21 @@ footer p {
   font-size: 12px;
 }
 
+/* スクロールボタン */
+
+.scroll-up {
+  bottom: 130px;
+  right: 10%;
+  position: fixed;
+  display: none;
+}
+
+.scroll-down {
+  bottom: 50px;
+  right: 10%;
+  position: fixed;
+}
+
 /* ボタン */
 
 .btn {
@@ -114,6 +129,7 @@ footer p {
   padding: 15px;
   font-size: 14px;
   cursor: pointer;
+  background: none;
 }
 
 .btn:hover {
@@ -126,17 +142,6 @@ footer p {
 }
 
 .btn-impact {
-  border-color: #d18d26;
-  background-color: #e9c645;
-  color: #ad7520;
+  border-color: #ba4c45;
+  color: #983e37;
 }
-
-
-
-
-
-
-
-
-
-
